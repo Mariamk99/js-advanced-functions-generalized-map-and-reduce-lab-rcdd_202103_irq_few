@@ -1,4 +1,5 @@
 // Add your functions here
+<<<<<<< HEAD
 function map(array, function1) {
     return array.map(element => function1(element))
 }
@@ -13,3 +14,9 @@ function reduce(array, number1, start=0) {
 
     return newarray;
 }
+=======
+
+var new_array = arr.map(function callback(element, index, array) {
+    // Return value for new_array
+}[thisArg]);
+>>>>>>> 56f3b0f74ee770d86df77dd8d0abf415bf30be71
